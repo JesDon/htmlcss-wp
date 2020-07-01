@@ -59,7 +59,7 @@ nav{
   color: white;
   font-size: 12px;
   height: 40px;
-  padding-top: 10px;
+  padding-top: 13px;
   /* vertical-align: 0px; */
 }
 
@@ -77,9 +77,10 @@ main::after{
   clear: both;
 }
 
-aside > div{
+main div{
   border-radius: 2%;
 }
+
 .sinistra{
   background-color: white;
   height: 250px;
@@ -87,6 +88,17 @@ aside > div{
   margin-right: 20px;
   float: left;
 }
+
+.logo-sx{
+  padding: 8px;
+  width: 50px;
+
+}
+
+.organic{
+
+}
+
 
 .centro{
   background-color: white;
@@ -109,7 +121,20 @@ aside > div{
 }
 
 footer{
-  background-color: darkgrey;
-  height: 100px;
+  background-color: white;
+  height: 150px;
   clear: both;
+  border-radius: 2%;
+  margin-bottom: 20px;
+}
+
+.footer-text{
+  color: lightgrey;
+  text-align: center;
+  padding-top: 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.fab fa-facebook-square{
+  width: 40px;
 }
