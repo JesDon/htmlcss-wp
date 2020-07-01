@@ -44,6 +44,29 @@ header{
   padding: 0 15px;
 }
 
+nav{
+  height: 40px;
+  background-color: #666666;
+}
+
+.menu{
+  text-align: center;
+}
+
+.menu li{
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  height: 40px;
+  padding-top: 10px;
+  /* vertical-align: 0px; */
+}
+
+.menu li:hover{
+  background-color: #302B27;
+}
+
 main{
   margin: 20px 0;
 }
@@ -54,31 +77,35 @@ main::after{
   clear: both;
 }
 
+aside > div{
+  border-radius: 2%;
+}
 .sinistra{
-  background-color: lightblue;
+  background-color: white;
   height: 250px;
-  width: 180px;
+  width: 23%;
   margin-right: 20px;
   float: left;
 }
 
 .centro{
-  background-color: pink;
+  background-color: white;
   height: 500px;
-  width: 400px;
+  width: 50%;
   float: left;
 }
 
 .destra{
-  background-color: lightgreen;
+  background-color: white;
   height: 250px;
-  width: 180px;
+  width: 23%;
   margin-left: 20px;
   float: left;
 }
 
 #margin-top{
   margin-top: 20px;
+
 }
 
 footer{
