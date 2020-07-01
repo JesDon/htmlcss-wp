@@ -7,9 +7,10 @@
 body{
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
+
 .container{
   width: 1000px;
   margin: auto;
@@ -21,9 +22,19 @@ header{
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 350px;
   border: 15px solid white;
   position: relative;
+}
+
+header .fa-mountain{
+  color: white;
+  top: -22px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
 }
 
 .header-text{
@@ -59,8 +70,7 @@ nav{
   color: white;
   font-size: 12px;
   height: 40px;
-  padding-top: 13px;
-  /* vertical-align: 0px; */
+  padding: 13px 10px 0 10px;
 }
 
 .menu li:hover{
@@ -77,30 +87,42 @@ main::after{
   clear: both;
 }
 
-main div{
-  border-radius: 2%;
-}
-
-h3{
+main h3{
   font-size: 25px;
   text-shadow: 2px 2px lightgrey;
   color: #302B27;
+  padding: 20px;
 }
 
-.sinistra{
+main p{
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.left{
   background-color: white;
-  height: 250px;
+  height: 300px;
   width: 23%;
   margin-right: 20px;
   float: left;
+  border-radius: 2%;
 }
 
-.logo-sx{
-  padding: 8px;
-  width: 50px;
+.left .fa-rss-square{
+  font-size: 30px;
+  color: orange;
+  padding: 5px;
 }
 
-.organic{
+.organic-menu{
+  list-style: none;
+}
+
+.organic-menu li{
+  color: green;
+  padding-left: 15px;
+  line-height: 1.6;
 }
 
 .centre{
@@ -108,30 +130,28 @@ h3{
   height: 500px;
   width: 50%;
   float: left;
-}
-
-.centre-text{
-  padding: 20px;
-  text-align: justify;
-  line-height: 1.6;
+  border-radius: 2%;
 }
 
 #centre-h3{
   text-transform: uppercase;
-  padding-bottom: 30px;
+}
+.centre-text{
+  text-align: justify;
+  line-height: 1.6;
 }
 
-.destra{
+.right{
   background-color: white;
-  height: 250px;
+  height: 350px;
   width: 23%;
   margin-left: 20px;
   float: left;
+  border-radius: 2%;
 }
 
 #margin-top{
   margin-top: 20px;
-
 }
 
 footer{
@@ -149,6 +169,12 @@ footer{
   border-bottom: 1px solid lightgrey;
 }
 
-.fab fa-facebook-square{
-  width: 40px;
+.footer-logos{
+  font-size: 40px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 33%;
+  padding-top: 30px;
+  color: lightgrey;
 }
