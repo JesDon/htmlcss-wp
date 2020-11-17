@@ -13,7 +13,7 @@ body{
 
 .container{
   width: 1000px;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 20px;
 }
 
@@ -70,7 +70,8 @@ nav{
   color: white;
   font-size: 12px;
   height: 40px;
-  padding: 13px 10px 0 10px;
+  padding: 0 10px;
+  line-height: 40px;
 }
 
 .menu li:hover{
@@ -106,13 +107,18 @@ main p{
   width: 23%;
   margin-right: 20px;
   float: left;
-  border-radius: 2%;
+  border-radius: 5px;
 }
 
 .left .fa-rss-square{
   font-size: 30px;
   color: orange;
   padding: 5px;
+  float: left;
+}
+
+.left .rss-container{
+  float: left
 }
 
 .organic-menu{
@@ -127,10 +133,9 @@ main p{
 
 .centre{
   background-color: white;
-  height: 500px;
   width: 50%;
   float: left;
-  border-radius: 2%;
+  border-radius: 5px;
 }
 
 #centre-h3{
@@ -141,24 +146,21 @@ main p{
   line-height: 1.6;
 }
 
-.right{
+.widget{
   background-color: white;
   height: 350px;
   width: 23%;
   margin-left: 20px;
-  float: left;
-  border-radius: 2%;
-}
-
-#margin-top{
-  margin-top: 20px;
+  float: right;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 footer{
   background-color: white;
-  height: 150px;
+  height: 140px;
   clear: both;
-  border-radius: 2%;
+  border-radius: 5px;
   margin-bottom: 20px;
 }
 
